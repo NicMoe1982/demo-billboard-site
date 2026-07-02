@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | Rootline Outdoor Services</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Work+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <nav class="nav">
+    <a href="index.html" class="nav-brand">Root<span>line</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="testimonials.html">Reviews</a></li>
+      <li><a href="contact.html" aria-current="page">Contact</a></li>
+    </ul>
+    <div class="nav-cta">
+      <span class="nav-phone">(555) 019‑2245</span>
+      <a href="contact.html" class="btn btn-ghost">Book</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
+  </nav>
+</header>
+
+<section class="section">
+  <div class="section-head container">
+    <span class="eyebrow">Contact</span>
+    <h1>Let's talk about your yard.</h1>
+    <p style="margin-top:0.75rem;">Free on-site quotes, usually scheduled within 48 hours.</p>
+  </div>
+
+  <div class="contact-grid container">
+
+    <div class="contact-info">
+      <h3>Reach us directly</h3>
+      <dl>
+        <dt>Phone</dt><dd><a href="tel:5550192245">(555) 019‑2245</a></dd>
+        <dt>Email</dt><dd><a href="mailto:hello@rootlineoutdoor.com">hello@rootlineoutdoor.com</a></dd>
+        <dt>Hours</dt><dd>Mon–Fri, 7am–5pm</dd>
+        <dt>Service Area</dt><dd>Cumberland County &amp; nearby</dd>
+      </dl>
+
+      <div class="map-embed">
+        [ Google Maps embed placeholder — insert your &lt;iframe&gt; embed code here ]
+      </div>
+    </div>
+
+    <div class="form-card">
+      <h3 style="margin-bottom:1.25rem;">Request a free quote</h3>
+      <form id="contact-form">
+        <div class="field">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="field">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" required>
+        </div>
+        <div class="field">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="field">
+          <label for="service">Service Needed</label>
+          <select id="service" name="service">
+            <option>Lawn Care</option>
+            <option>Planting &amp; Design</option>
+            <option>Hardscaping</option>
+            <option>Irrigation</option>
+            <option>Tree &amp; Shrub Care</option>
+            <option>Seasonal Cleanup</option>
+            <option>Not sure yet</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Details</label>
+          <textarea id="message" name="message" rows="4" placeholder="Tell us a bit about your property and what you're looking for."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%; justify-content:center;">Send Request</button>
+        <p class="form-note">This form isn't wired to a backend yet — connect it to your email service, Formspree, or Netlify Forms before launch.</p>
+        <div class="form-success">Thanks — we'll be in touch within one business day.</div>
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div>
+      <div class="footer-brand">Root<span style="color:var(--ochre)">line</span></div>
+      <p style="color:var(--sand); opacity:0.8; font-size:0.9rem;">Licensed &amp; insured outdoor services for Cumberland County.</p>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:5550192245">(555) 019‑2245</a></li>
+        <li><a href="mailto:hello@rootlineoutdoor.com">hello@rootlineoutdoor.com</a></li>
+        <li><a href="contact.html">Get a Quote</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2026 Rootline Outdoor Services. All rights reserved.</span>
+    <span><a href="#" style="color:var(--sand); opacity:0.8;">Privacy Policy</a></span>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
